@@ -13,3 +13,5 @@ io.on('connection', (socket) => {
     io.emit('message', payload);
   });
 });
+
+//--- are they not built in functions with io? I'm not sure why it's giving me an error.
