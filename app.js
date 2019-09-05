@@ -82,8 +82,10 @@ const saveFile = async (filepath, fileContent) => {
     .catch(error => {
       socket.emit('file-error', error);
     })
-}
+};
 
 let testFilePath = './test-content.txt'
 alterFile(testFilePath);
+
+//Why is it giving me an error with alterFile function?
 
