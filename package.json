@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/benjamin-401-advanced-javascript/class-17-socket-io#readme",
   "dependencies": {
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.5.0",
     "socket.io-client": "^2.2.0"
   }
 }
